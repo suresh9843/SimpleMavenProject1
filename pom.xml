@@ -58,6 +58,13 @@
 		</plugins>
 	</build>
 	<dependencies>
+	
+		<dependency>
+			<groupId>com.suresh.simpleMavenProjectToGit</groupId>
+			<artifactId>SimpleMavenProjectToGit</artifactId>
+			<version>${SimpleMavenProjectToGit.version}</version>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
