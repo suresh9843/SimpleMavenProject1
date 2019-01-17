@@ -6,7 +6,7 @@
 
 	<properties>
 		<spring.version>3.2.3.RELEASE</spring.version>
-		<SimpleMavenProjectToGit.version> %SimpleMavenProjectToGitReleasedVersion%</SimpleMavenProjectToGit.version>
+		<SimpleMavenProjectToGit.version> ${SimpleMavenProjectToGitReleasedVersion}</SimpleMavenProjectToGit.version>
 	</properties>
 
 	<scm> 
