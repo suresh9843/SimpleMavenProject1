@@ -1,4 +1,4 @@
-package com.myspring.examples;
+package com.mymaven;
 
 import org.springframework.stereotype.Service;
  
