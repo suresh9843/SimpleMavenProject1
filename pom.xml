@@ -7,6 +7,7 @@
 	<properties>
 		<spring.version>3.2.3.RELEASE</spring.version>
 		<SimpleMavenProjectToGit.version> 1.11 </SimpleMavenProjectToGit.version>
+		<util.version> 0.0 </util.version>
 	</properties>
 
 	<scm> 
