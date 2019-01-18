@@ -6,7 +6,7 @@
 
 	<properties>
 		<spring.version>3.2.3.RELEASE</spring.version>
-		<SimpleMavenProjectToGit.version> ${SimpleMavenProjectToGitReleasedVersion}</SimpleMavenProjectToGit.version>
+		<SimpleMavenProjectToGit.version> 1.11 </SimpleMavenProjectToGit.version>
 	</properties>
 
 	<scm> 
@@ -62,7 +62,7 @@
 		<dependency>
 			<groupId>com.suresh.simpleMavenProjectToGit</groupId>
 			<artifactId>SimpleMavenProjectToGit</artifactId>
-			<version>1.11</version>
+			<version>${SimpleMavenProjectToGit.version}</version>
 		</dependency>
 		
 		<dependency>

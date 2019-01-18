@@ -1,4 +1,5 @@
 package com.mymaven;
+import com.myspring.examples.SimpleUtil;
 
 
 
@@ -19,6 +20,7 @@ public class Main {
 		message = service.sayHello();
 		System.out.println(message);*/
 		
-		//SimpleUtil util = new SimpleUtil();
+		SimpleUtil util = new SimpleUtil();
+		util.myMessage();
 	}
 }
