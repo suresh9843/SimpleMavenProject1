@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.project2</groupId>
 	<artifactId>SimpleMavenProject2</artifactId>
@@ -10,13 +11,13 @@
 		<util.version> 0.0 </util.version>
 	</properties>
 
-	<scm> 
+	<scm>
 		<connection>scm:git:git@github.com:suresh9843/SureshRepository.git</connection>
 		<developerConnection>scm:git: git@github.com:suresh9843/SimpleMavenProject1.git</developerConnection>
 		<url>https://github.com:suresh9843/SimpleMavenProject1</url>
-	  <tag>HEAD</tag>
-  </scm>
-	
+		<tag>HEAD</tag>
+	</scm>
+
 	<repositories>
 		<repository>
 			<id>myRemoteRepository</id>
@@ -56,16 +57,21 @@
 					</dependency>
 				</dependencies>
 			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>versions-maven-plugin</artifactId>
+				<version>2.7</version>
+			</plugin>
 		</plugins>
 	</build>
 	<dependencies>
-	
+
 		<dependency>
 			<groupId>com.suresh.simpleMavenProjectToGit</groupId>
 			<artifactId>SimpleMavenProjectToGit</artifactId>
 			<version>${SimpleMavenProjectToGit.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
