@@ -7,7 +7,7 @@
 
 	<properties>
 		<spring.version>3.2.3.RELEASE</spring.version>
-		<SimpleMavenProjectToGit.version> 0.0 </SimpleMavenProjectToGit.version>
+		<SimpleMavenProjectToGit.version> 1.13</SimpleMavenProjectToGit.version>
 		<util.version> 0.0 </util.version>
 	</properties>
 
@@ -61,6 +61,14 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>versions-maven-plugin</artifactId>
 				<version>2.7</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-scm-plugin</artifactId>
+				<version>1.11.1</version>
+				<configuration>
+					<connectionType>connection</connectionType>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
